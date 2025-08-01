@@ -4,7 +4,7 @@ import app from './app.js';
 import { handleConnection } from './websockets/handler.js';
 
 //Define the port for the server
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 8080;
 
 // Create an HTTP server using the Express app
 const server = http.createServer(app);
